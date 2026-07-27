@@ -202,18 +202,6 @@ var (
 		"test/built-ins/RegExp/nullable-quantifier.js":               true,
 		"test/built-ins/RegExp/lookahead-quantifier-match-groups.js": true,
 
-		// TypedArray internals
-		"test/built-ins/TypedArrayConstructors/internals/Set/key-is-valid-index-reflect-set.js":                            true,
-		"test/built-ins/TypedArrayConstructors/internals/Set/key-is-out-of-bounds-receiver-is-proto.js":                    true,
-		"test/built-ins/TypedArrayConstructors/internals/Set/key-is-out-of-bounds-receiver-is-not-object.js":               true,
-		"test/built-ins/TypedArrayConstructors/internals/Set/key-is-canonical-invalid-index-prototype-chain-set.js":        true,
-		"test/built-ins/TypedArrayConstructors/internals/Set/key-is-canonical-invalid-index-reflect-set.js":                true,
-		"test/built-ins/TypedArrayConstructors/internals/Set/BigInt/key-is-valid-index-reflect-set.js":                     true,
-		"test/built-ins/TypedArrayConstructors/internals/Set/BigInt/key-is-canonical-invalid-index-prototype-chain-set.js": true,
-		"test/built-ins/TypedArrayConstructors/internals/Set/BigInt/key-is-canonical-invalid-index-reflect-set.js":         true,
-		"test/built-ins/TypedArray/prototype/with/value-throw-completion.js":                                               true,
-		"test/built-ins/TypedArray/prototype/slice/speciesctor-return-same-buffer-with-offset.js":                          true,
-
 		// RegExp CharacterClassEscapes
 		"test/built-ins/RegExp/CharacterClassEscapes/character-class-word-class-escape-positive-cases.js":           true,
 		"test/built-ins/RegExp/CharacterClassEscapes/character-class-word-class-escape-negative-cases.js":           true,
@@ -276,10 +264,6 @@ var (
 		"test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-import-star-as-and-export.js":                         true,
 		"test/language/module-code/top-level-await/pending-async-dep-from-cycle.js":                                                         true,
 		"test/language/module-code/top-level-await/module-graphs-does-not-hang.js":                                                          true,
-		"test/language/expressions/less-than-or-equal/S11.8.3_A4.12_T1.js":                                                                  true,
-		"test/language/expressions/less-than/S11.8.1_A4.12_T1.js":                                                                           true,
-		"test/language/expressions/greater-than-or-equal/S11.8.4_A4.12_T1.js":                                                               true,
-		"test/language/expressions/greater-than/S11.8.2_A4.12_T1.js":                                                                        true,
 
 		// Extended Unicode group names in non-unicode regexp
 		"test/built-ins/RegExp/named-groups/non-unicode-property-names-valid.js": true,
