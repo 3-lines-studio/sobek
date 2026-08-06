@@ -12,7 +12,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 const hex = "0123456789abcdef"

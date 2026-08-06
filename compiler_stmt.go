@@ -1,10 +1,10 @@
 package sobek
 
 import (
-	"github.com/grafana/sobek/ast"
-	"github.com/grafana/sobek/file"
-	"github.com/grafana/sobek/token"
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/ast"
+	"github.com/3-lines-studio/sobek/file"
+	"github.com/3-lines-studio/sobek/token"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 func (c *compiler) compileStatement(v ast.Statement, needResult bool) {

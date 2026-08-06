@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/grafana/sobek/ftoa"
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/ftoa"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 var (

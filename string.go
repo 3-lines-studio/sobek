@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 const (

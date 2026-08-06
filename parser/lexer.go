@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/text/unicode/rangetable"
 
-	"github.com/grafana/sobek/file"
-	"github.com/grafana/sobek/token"
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/file"
+	"github.com/3-lines-studio/sobek/token"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 var (

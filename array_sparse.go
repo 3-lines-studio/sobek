@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type sparseArrayItem struct {

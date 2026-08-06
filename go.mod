@@ -1,4 +1,4 @@
-module github.com/grafana/sobek
+module github.com/3-lines-studio/sobek
 
 go 1.25.0
 

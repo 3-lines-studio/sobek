@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type objectGoMapReflect struct {

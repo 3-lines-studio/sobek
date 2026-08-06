@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type objectGoSlice struct {

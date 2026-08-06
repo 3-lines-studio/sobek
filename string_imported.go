@@ -9,8 +9,8 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/grafana/sobek/parser"
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/parser"
+	"github.com/3-lines-studio/sobek/unistring"
 
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

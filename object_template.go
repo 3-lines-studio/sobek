@@ -2,7 +2,7 @@ package sobek
 
 import (
 	"fmt"
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 	"math"
 	"reflect"
 	"sort"

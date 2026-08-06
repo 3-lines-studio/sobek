@@ -9,7 +9,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/grafana/sobek/parser"
+	"github.com/3-lines-studio/sobek/parser"
 )
 
 func (r *Runtime) newRegexpObject(proto *Object) *regexpObject {

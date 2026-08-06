@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/grafana/sobek/parser"
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/parser"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 // JsonEncodable allows custom JSON encoding by JSON.stringify()

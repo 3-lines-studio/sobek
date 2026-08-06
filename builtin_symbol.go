@@ -1,6 +1,6 @@
 package sobek
 
-import "github.com/grafana/sobek/unistring"
+import "github.com/3-lines-studio/sobek/unistring"
 
 var (
 	SymHasInstance        = newSymbol(asciiString("Symbol.hasInstance"))

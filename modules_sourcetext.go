@@ -5,8 +5,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/grafana/sobek/ast"
-	"github.com/grafana/sobek/parser"
+	"github.com/3-lines-studio/sobek/ast"
+	"github.com/3-lines-studio/sobek/parser"
 )
 
 var (

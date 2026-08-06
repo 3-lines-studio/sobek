@@ -3,7 +3,7 @@ package sobek
 import (
 	"sort"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type namespaceObject struct {

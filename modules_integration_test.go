@@ -10,7 +10,7 @@ import (
 	"testing/fstest"
 	"time"
 
-	"github.com/grafana/sobek"
+	"github.com/3-lines-studio/sobek"
 )
 
 type simpleComboResolver struct {

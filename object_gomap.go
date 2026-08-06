@@ -3,7 +3,7 @@ package sobek
 import (
 	"reflect"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type objectGoMapSimple struct {

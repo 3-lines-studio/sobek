@@ -10,7 +10,7 @@ import (
 
 	"github.com/dlclark/regexp2/v2"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type regexp2MatchCache struct {

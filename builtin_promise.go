@@ -3,7 +3,7 @@ package sobek
 import (
 	"reflect"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type PromiseState int
@@ -609,7 +609,7 @@ func (r *Runtime) wrapPromiseReaction(fObj *Object) func(interface{}) error {
 // Exceptions are handled through [PromiseRejectionTracker].
 //
 // WARNING: The returned values are not goroutine-safe and must not be called in parallel with VM running.
-// In order to make use of this method you need an event loop such as the one in sobek_nodejs (https://github.com/grafana/sobek_nodejs)
+// In order to make use of this method you need an event loop such as the one in sobek_nodejs (https://github.com/3-lines-studio/sobek_nodejs)
 // where it can be used like this:
 //
 //	loop := NewEventLoop()

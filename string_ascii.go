@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grafana/sobek/unistring"
+	"github.com/3-lines-studio/sobek/unistring"
 )
 
 type asciiString string
