@@ -155,6 +155,12 @@ func TestTransformRegExp(t *testing.T) {
 		is(regexp.MustCompile(pattern).MatchString("\t abc def"), true)
 	})
 	tt(t, func() {
+		pattern, err := TransformRegExp(`^([A-Z])|[\s-_]+(\w)`, false, false)
+		is(err, nil)
+		is(regexp.MustCompile(pattern).MatchString("foo-bar_baz"), true)
+		is(regexp.MustCompile(pattern).MatchString("-"), false)
+	})
+	tt(t, func() {
 		pattern, err := TransformRegExp(`\u{1d306}`, false, true)
 		is(err, nil)
 		is(pattern, `\x{1d306}`)

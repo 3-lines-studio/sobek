@@ -255,15 +255,25 @@ func (self *_RegExp_parser) scanBracket() {
 	}
 
 	self.pass()
+	prevClassEscape := false
 	for self.chr != -1 {
 		if self.chr == ']' {
 			break
 		} else if self.chr == '\\' {
 			self.read()
 			self.scanEscape(true)
+			prevClassEscape = true
+			continue
+		}
+		if self.chr == '-' && prevClassEscape {
+			self.writeByte('\\')
+			self.writeByte('-')
+			self.read()
+			prevClassEscape = false
 			continue
 		}
 		self.pass()
+		prevClassEscape = false
 	}
 	if self.chr != ']' {
 		self.error(true, "Unterminated character class")
